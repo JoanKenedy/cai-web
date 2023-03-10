@@ -1,0 +1,18 @@
+.botones {
+  width: 100%;
+}
+.botones a {
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  transition: 0.5s;
+}
+.botones a:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+.botones a img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}

@@ -1,0 +1,12 @@
+.container-btn {
+  width: 100%;
+  z-index: 9999;
+  position: fixed;
+}
+.container-btn a {
+  text-decoration: none;
+  list-style: none;
+}
+.container-btn a .btn-contacto {
+  max-width: 10%;
+}

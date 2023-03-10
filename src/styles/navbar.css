@@ -1,0 +1,96 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  gap: 10px;
+}
+header img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+header h1 {
+  color: #0394cb;
+  font-size: 1.8em;
+}
+.barraUno {
+  width: 100%;
+  background-color: #0394cb;
+  display: flex;
+  justify-content: center;
+}
+.barraUno p {
+  font-size: 2em;
+  text-align: center;
+  text-transform: none;
+  color: #fff;
+  padding: 7px 0px;
+  margin: 0px 5px;
+}
+.barraUno span {
+  margin-left: 10px;
+}
+.hero {
+  width: 100%;
+}
+.hero img {
+  max-width: 100%;
+}
+.barraText {
+  width: 100%;
+  background-color: red;
+}
+.barraText p {
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 7px 0px;
+  margin: 0px;
+}
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  header img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+  }
+  header h1 {
+    color: #0394cb;
+    font-size: 1.1em;
+  }
+  .barraUno {
+    width: 100%;
+    background-color: #0394cb;
+  }
+  .barraUno p {
+    font-size: 1em;
+    text-align: center;
+    text-transform: none;
+    color: #fff;
+    padding: 7px 5px;
+    margin: 0px;
+  }
+  .hero {
+    width: 100%;
+  }
+  .hero img {
+    max-width: 100%;
+  }
+  .barraText p {
+    font-size: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 7px 0px;
+    margin: 0px;
+  }
+}
