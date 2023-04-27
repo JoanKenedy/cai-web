@@ -11,13 +11,10 @@ const Navbar = () => {
         <h1>Centro Académico Integral</h1>
       </header>
       <div className="barraUno">
-        <p>Inicio de curso 31 de Marzo </p>
-        <p>|</p>
-        <p>Tiene duración de 1 año</p>
+        <p>No te pierdas esta gran experiencia </p>
+        
       </div>
-      <div className="barraText">
-        <p>Cupo Límitado</p>
-      </div>
+      
       <div className="hero">
         <img src={Portada} alt="" />
       </div>

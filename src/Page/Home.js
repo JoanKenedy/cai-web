@@ -6,6 +6,7 @@ import Docentes from "../Components/Docentes";
 
 import General from "../Components/General";
 import Navbar from "../Components/Navbar";
+import Cursos from "../Components/Cursos";
 
 const Home = () => {
   return (
@@ -13,9 +14,11 @@ const Home = () => {
       <Navbar />
       <BarraDos />
       <BarraTres />
+      <Cursos />
       <Docentes />
       <General />
       <Botones />
+
     </div>
   );
 };

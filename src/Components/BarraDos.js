@@ -12,9 +12,9 @@ const BarraDos = () => {
         <div className="descarga">
           <div className="arrow1"></div>
           <p>
-            <a href={Pdf} target="_blank">
-              Descarga el temario aquí
-            </a>
+            
+              Aprende con Especialistas Certificados
+            
           </p>
           <div className="arrow2"></div>
         </div>

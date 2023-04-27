@@ -22,12 +22,13 @@
   padding: 10px 0px;
   position: relative;
 }
-.descarga a {
+.descarga p {
   text-decoration: none;
   color: #3366cc;
   font-size: 2.4em;
   text-transform: uppercase;
   margin: 0px 25px;
+  text-align: center;
 }
 
 .arrow1 {
@@ -94,12 +95,13 @@
     padding: 10px 0px;
     position: relative;
   }
-  .descarga a {
+  .descarga  p{
     text-decoration: none;
     color: #3366cc;
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-transform: capitalize;
-    margin: 0px 10px;
+    margin: 0px 0px;
+    text-align: center;
   }
 
   .arrow1 {
@@ -134,8 +136,9 @@
     color: #fff;
     text-transform: uppercase;
     font-size: 1.2em;
-    margin: 0;
+    margin: auto;
     padding: 5px 0px;
+    text-align: center !important;
   }
   .descarga {
     width: 100%;
@@ -143,16 +146,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px 0px;
+    padding: 0px 0px;
     position: relative;
   }
-  .descarga a {
-    text-decoration: none;
-    color: #3366cc;
-    font-size: 1.2em;
-    text-transform: capitalize;
-    margin: 0px 10px;
-  }
+  
 
   .arrow1 {
     clip-path: polygon(57% 28%, 100% 50%, 61% 70%, 0% 100%, 47% 51%, 1% 1%);
